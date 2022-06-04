@@ -2,11 +2,6 @@
 import java.awt.event.*; // awt의 이벤트처리에 관한 모든 클래스를 import합니다.
 import javax.swing.*; // 자바에서 제공하는 swing의 모든 클래스를 import합니다.
 
-/*
- * RadioButtonEvent 클래스는 JFrame을 상속받고,
- * ItemListener를 구현하기 위하여 implement를 걸어줍니다.
- */
-
 public class RadioButtonEvent extends JFrame implements ItemListener{
 
 	JLabel Lb; // JLabel 객체 Lb를 선언합니다.
