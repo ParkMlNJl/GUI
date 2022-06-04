@@ -1,16 +1,16 @@
 # GUI
-import java.awt.event.*; // awt의 이벤트처리에 관한 모든 클래스를 import합니다.
-import javax.swing.*; // 자바에서 제공하는 swing의 모든 클래스를 import합니다.
+import java.awt.event.*; 
+import javax.swing.*;
 
 public class RadioButtonEvent extends JFrame implements ItemListener{
 
-	JLabel Lb; // JLabel 객체 Lb를 선언합니다.
+	JLabel Lb; 
 
-	JPanel p1, p2; // JPanel 객체 p1, p2를 선언합니다.
+	JPanel p1, p2; 
 
-	JTextField tf1, tf2; // JTextField 객체 tf1, tf2를 선언합니다.
-	JRadioButton Rb1, Rb2, Rb3, Rb4; // JRadioButton 객체 Rb1, Rb2, Rb3, Rb4를 선언합니다
- 	ButtonGroup grp; // ButtonGroup 객체 grp를 선언합니다.
+	JTextField tf1, tf2; 
+	JRadioButton Rb1, Rb2, Rb3, Rb4;
+ 	ButtonGroup grp; 
 
  	public RadioButtonEvent(){ // RadioButtonEvent를 메서드로 재선언합니다.
 
@@ -87,10 +87,9 @@ public class RadioButtonEvent extends JFrame implements ItemListener{
         
 	} // end itemStateChange
 
-	// 프로그램 실행 지점입니다.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		RadioButtonEvent rbe = new RadioButtonEvent(); // RadioButtonEvent 클래스의 객체 rbe를 생성합니다.
+		RadioButtonEvent rbe = new RadioButtonEvent(); 
 	} // end main
     
 } // end class
